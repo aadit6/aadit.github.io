@@ -117,9 +117,9 @@
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
+      gravatarEmail = "nagpalaadit@gmail.com"
       # URL of avatar shown in home page
-      avatarURL = "C:\\Users\\aadit\\Documents\\Programming\\aadit6.github.io\\images\\profile_photo.png"
+      avatarURL = "https://github.com/aadit6/aadit.github.io/blob/main/images/profile_photo.png" #is this safe to do?
       # title shown in home page (HTML format is supported)
       title = "Aadit Nagpal"
       # subtitle shown in home page (HTML format is supported)
@@ -280,9 +280,9 @@
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = false
+      Facebook = false
+      Linkedin = true
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
       HackerNews = true
