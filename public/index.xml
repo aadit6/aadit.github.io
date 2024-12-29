@@ -2,7 +2,7 @@
     <channel>
         <title>My New Hugo Site</title>
         <link>http://localhost:1313/</link>
-        <description>This is really my cool site</description>
+        <description>Aadit Nagpal - MEng Electronic Engineering</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         </channel>
