@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/aadit/Documents/Programming/aadit6.github.io",
+	"sourceRoot": "/home/runner/work/aadit6.github.io/aadit6.github.io",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/normalize/normalize.css",
