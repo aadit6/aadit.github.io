@@ -68,8 +68,8 @@ copyright = "Copy, _right?_ :thinking_face:"
 
 
     { github = "https://github.com/aadit6" },
-      { whatsapp = "https://wa.me/+447426993990r" },
-    { x-twitter = "https://twitter.com/aaditnagpal6" },
+      # { whatsapp = "https://wa.me/+447426993990r" },
+    # { x-twitter = "https://twitter.com/aaditnagpal6" },
         { linkedin = "https://linkedin.com/in/aadit-nagpal-bb5031263" },
 
   ]
