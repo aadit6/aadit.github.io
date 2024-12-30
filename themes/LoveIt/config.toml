@@ -89,7 +89,7 @@
 
   # Search config
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     type = "lunr"
     # max index length of the chunked content
@@ -541,7 +541,7 @@
 [outputs]
   # {{< version 0.2.0 changed >}}
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]    
+  page = ["HTML", "MarkDown", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "RSS", "JSON"]
+  taxonomyTerm = ["HTML", "JSON"]    
