@@ -38,7 +38,7 @@
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
-      typeit = false
+      typeit = true
 
   # Footer config
   [params.footer]
@@ -125,7 +125,7 @@
       # subtitle shown in home page (HTML format is supported)
       subtitle = "Aadit Nagpal - MEng Electronic Engineering"
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)

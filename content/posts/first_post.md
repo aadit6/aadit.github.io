@@ -16,6 +16,8 @@ tags: ["shortcodes"]
 categories: ["documentation"]
 
 lightgallery: true
+type: "posts"
+layout: "single"
 ---
 
 **Hugo** provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.
