@@ -5,7 +5,7 @@
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "dark"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/aadit6/aadit.github.io"
   # which hash function used for SRI, when empty, no SRI is used
