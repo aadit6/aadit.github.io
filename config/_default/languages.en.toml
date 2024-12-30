@@ -16,7 +16,7 @@ copyright = "Copy, _right?_ :thinking_face:"
   name = "Aadit Nagpal"
   image = "profile_photo.png"
   headline = "Electronic Engineering (MEng), University of Warwick"
-  bio = "A littreeeeeeeele bit about you"
+  bio = "Electronic Engineering (MEng), University of Warwick"
   links = [
     { email = "mailto:nagpalaadit@gmail.com" },
     # { link = "https://link-to-some-website.com/" },
@@ -30,7 +30,7 @@ copyright = "Copy, _right?_ :thinking_face:"
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/aadit6" },
+    
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
     # { google-scholar = "https://scholar.google.com/citations?user=user-id" },
@@ -43,7 +43,6 @@ copyright = "Copy, _right?_ :thinking_face:"
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
-    { linkedin = "https://linkedin.com/in/aadit-nagpal-bb5031263" },
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { mendeley = "https://www.mendeley.com/" },
@@ -63,8 +62,14 @@ copyright = "Copy, _right?_ :thinking_face:"
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
-    { whatsapp = "https://wa.me/+447426993990r" },
-    { x-twitter = "https://twitter.com/aaditnagpal6" },
+  
     # { youtube = "https://youtube.com/username" },
     # { xing = "https://xing.com/profile/username" },
+
+
+    { github = "https://github.com/aadit6" },
+      { whatsapp = "https://wa.me/+447426993990r" },
+    { x-twitter = "https://twitter.com/aaditnagpal6" },
+        { linkedin = "https://linkedin.com/in/aadit-nagpal-bb5031263" },
+
   ]
