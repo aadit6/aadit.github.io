@@ -123,7 +123,7 @@
       # title shown in home page (HTML format is supported)
       title = "Aadit Nagpal"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Aadit Nagpal - MEng Electronic Engineering"
+      subtitle = "MEng Electronic Engineering, University of Warwick"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
@@ -133,8 +133,15 @@
       markdownContent = """
 
 
-My name is Aadit. I am an Electronic Engineering student at the University of Warwick and am excited to learn and build! This is my website.
+I am Aadit, an EE student @ the University of Warwick and am excited to build! This is my personal website showcasing my projects, skills and thoughts
 ## What is on this website
+- Most prominently, the [projects](https://www.aadit.xyz/projects) I have built
+  - Including [yadayadayada](https://www.x.com), a blahblah blah.
+- Also some of my personal thoughts, documentation and research over on my [writings](https://www.aadit.xyz/posts)
+- Finally various other things such as
+  - my CV
+  - and information about myself as well as my background
+
 
 """
     # Home page posts
