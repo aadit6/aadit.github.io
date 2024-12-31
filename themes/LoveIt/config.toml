@@ -130,6 +130,13 @@
       social = true
       # disclaimer (HTML format is supported)
       disclaimer = ""
+      markdownContent = """
+
+
+My name is Aadit. I am an Electronic Engineering student at the University of Warwick and am excited to learn and build! This is my website.
+## What is on this website
+
+"""
     # Home page posts
     [params.home.posts]
       enable = true

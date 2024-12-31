@@ -2,3 +2,32 @@
 // Override Variables
 // 覆盖变量
 // ==============================
+.home-markdown-content {
+    text-align: left;
+}
+
+.home-markdown-content h1,
+.home-markdown-content h2,
+.home-markdown-content h3,
+.home-markdown-content p {
+    margin-left: 0;
+}
+
+.home-markdown-content h2 {
+    display: inline-block;
+    position: relative;
+    margin-left: 0;
+}
+
+.hashtag-link {
+    margin-right: 5px;  // Increase the space between hashtag and title
+    font-size: 25px;     // Increase the size of the hashtag
+    color: #2d96bd;
+    text-decoration: none;
+    font-weight: bold;   // Make the hashtag bold for better visibility
+}
+
+.hashtag-link:hover {
+    text-decoration: underline;
+}
+

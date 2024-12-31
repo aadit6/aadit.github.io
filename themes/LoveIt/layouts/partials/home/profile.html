@@ -95,4 +95,25 @@
             {{- . | safeHTML -}}
         </h3>
     {{- end -}}
+
+    {{- with $profile.markdownContent -}}
+    <div class="home-markdown-content">
+        {{ . | markdownify }}
+    </div>
+    <script>
+        document.querySelectorAll('.home-markdown-content h2').forEach(function (el) {
+            var id = el.textContent.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+            el.id = id;
+    
+            // Create a hashtag link before the title
+            var link = document.createElement('a');
+            link.href = '#' + id;
+            link.textContent = '#';
+            link.classList.add('hashtag-link');
+            el.insertBefore(link, el.firstChild);  // Insert the link before the title
+        });
+    </script>
+    
+{{- end -}}
+
 </div>
