@@ -1,18 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Aadit Nagpal</title><link>http://aadit.xyz/</link><description>Aadit Nagpal - MEng Electronic Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 04 Mar 2020 16:29:41 +0800</lastBuildDate><atom:link href="http://aadit.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Theme Documentation - Built-in Shortcodes</title><link>http://aadit.xyz/posts/first_post/</link><pubDate>Wed, 04 Mar 2020 16:29:41 +0800</pubDate><author>Dillon</author><guid>http://aadit.xyz/posts/first_post/</guid><description>&lt;p>&lt;strong>Hugo&lt;/strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.&lt;/p></description></item><item><title>Aadit Nagpal CV</title><link>http://aadit.xyz/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Aadit</author><guid>http://aadit.xyz/cv/</guid><description><![CDATA[<h2 id="aadit-nagpal">AADIT NAGPAL</h2>
-<p><strong>Email:</strong> <a href="mailto:nagpalaadit@gmail.com" rel="">nagpalaadit@gmail.com</a><br>
-<strong>Phone:</strong> +44 7426 993 990<br>
-<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aadit-nagpal-bb5031263" target="_blank" rel="noopener noreffer ">linkedin.com/in/aadit-nagpal-bb5031263</a></p>
-<hr>
-<h2 id="education">Education</h2>
-<p><strong>University of Warwick</strong><br>
-<em>Coventry, West Midlands</em><br>
-<strong>Bachelor of Engineering (BEng) in Electronic Engineering</strong><br>
-<em>Sep 2024 – May 2027</em></p>
-<ul>
-<li>Modules: Engineering Design; Engineering Mathematics; Electrical and Electronic Circuits; Systems Modelling, Simulation and Computation; Computer Organisation and Architecture (Audit)</li>
-<li>Clubs and Societies: Engineering Society, Computing Society, Philosophy Society, Punjabi Society, Tennis Club</li>
-</ul>
-<p><strong>Langley Grammar School</strong><br>
-<em>Slough, Berkshire</em><br>
-<strong>GCE Advanced Level</strong><br>
-<em>Sep 2022 – May 2024</em></p>]]></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Aadit Nagpal</title><link>http://aadit.xyz/</link><description>Aadit Nagpal - MEng Electronic Engineering</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 04 Mar 2020 16:29:41 +0800</lastBuildDate><atom:link href="http://aadit.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Theme Documentation - Built-in Shortcodes</title><link>http://aadit.xyz/posts/first_post/</link><pubDate>Wed, 04 Mar 2020 16:29:41 +0800</pubDate><author>Dillon</author><guid>http://aadit.xyz/posts/first_post/</guid><description>&lt;p>&lt;strong>Hugo&lt;/strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.&lt;/p></description></item></channel></rss>
