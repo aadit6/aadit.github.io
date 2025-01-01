@@ -33,7 +33,7 @@
                         {{- $url = .RelPermalink -}}
                     {{- end -}}
                     <a class="menu-item{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
-                        {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                        {{- .Pre | safeHTML }} {{ .Name | safeHTML }} {{ .Post | safeHTML -}}
                     </a>
                 {{- end -}}
                 {{- if .Site.Menus.main -}}

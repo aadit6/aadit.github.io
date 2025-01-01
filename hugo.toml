@@ -54,6 +54,24 @@ languageName = "English"
     name = "CV"
     url = "/cv/"
     title = ""
+    [[menu.main]]
+    weight = 5
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "<i class='far fa-folder'></i> <i class='far fa-folder'></i>"
+    url = "/categories/"
+    title = ""
+
+    [[menu.main]]
+    weight = 6
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "<i class='fa fa-tags'></i>"
+    url = "/tags/"
+    title = ""
+
 
 # Markup related configuration in Hugo
 [markup]

@@ -17,9 +17,10 @@
                 </div>
             </div>
         {{- end -}}
-
+        
         {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
+            <h2 id="recent-title">Recent</h2>
             {{- /* Paginate */ -}}
             {{- $pages := where .Site.RegularPages "Type" "posts" -}}
             {{- if .Site.Params.page.hiddenFromHomePage -}}
@@ -36,6 +37,23 @@
                 {{- .Render "summary" -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}
+            <script>
+                // Wait for the DOM to fully load
+                document.addEventListener('DOMContentLoaded', function() {
+                  // Get the H2 element by its ID
+                  var el = document.getElementById('recent-title');
+                  var id = el.textContent.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+                  el.id = id;
+                  // Create a new link element for the hashtag
+                  var link = document.createElement('a');
+                  link.href = '#' + id;  // You can modify this link as needed
+                  link.textContent = '#'; // The text for the hashtag
+                  link.classList.add('hashtag-link'); // Optional: Add a class for styling
+              
+                  // Insert the link before the H2 element's first child (i.e., before the title text)
+                  el.insertBefore(link, el.firstChild);
+                });
+              </script>
         {{- end -}}
     </div>
 {{- end -}}

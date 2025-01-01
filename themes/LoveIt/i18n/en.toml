@@ -105,10 +105,10 @@ other = "Share on"
 other = "Contents"
 
 [publishedOnDate]
-other = "published on {{ .Date }}"
+other = "wrote on {{ .Date }}"
 
 [includedInCategories]
-other = "included in {{ .Categories }}"
+other = "in {{ .Categories }}"
 
 [wordCount]
 one = "One word"

@@ -234,7 +234,7 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
     # whether to hide a page from search results
     hiddenFromSearch = false
     # whether to enable twemoji
-    twemoji = false
+    twemoji = true
     # whether to enable lightgallery
     lightgallery = false
     # whether to enable the ruby extended syntax
