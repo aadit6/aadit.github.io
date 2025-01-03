@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Aadit Nagpal</title><link>http://aadit.xyz/projects/</link><description>Recent content in Projects on Aadit Nagpal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 04 Mar 2024 16:29:41 +0800</lastBuildDate><atom:link href="http://aadit.xyz/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Project One</title><link>http://aadit.xyz/projects/one/</link><pubDate>Mon, 04 Mar 2024 16:29:41 +0800</pubDate><guid>http://aadit.xyz/projects/one/</guid><description>&lt;h3 id="this">This&lt;/h3>
-&lt;h2 id="is-my-sample">Is my Sample&lt;/h2>
-&lt;h3 id="project">Project&lt;/h3>
-&lt;p>Blah de blah &lt;strong>De&lt;/strong> Blah&lt;/p></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All projects - Aadit Nagpal</title><link>http://aadit.xyz/projects/</link><description>All projects | Aadit Nagpal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Mar 2024 16:29:41 +0800</lastBuildDate><atom:link href="http://aadit.xyz/projects/" rel="self" type="application/rss+xml"/><item><title>Project One</title><link>http://aadit.xyz/projects/one/</link><pubDate>Mon, 04 Mar 2024 16:29:41 +0800</pubDate><author>Aadit</author><guid>http://aadit.xyz/projects/one/</guid><description><![CDATA[<h3 id="this">This</h3>
+<h2 id="is-my-sample">Is my Sample</h2>
+<h3 id="project">Project</h3>
+<p>Blah de blah <strong>De</strong> Blah</p>]]></description></item></channel></rss>
