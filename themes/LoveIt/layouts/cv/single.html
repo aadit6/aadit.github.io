@@ -1,0 +1,32 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "content" }}
+<article class="page cv-page">
+    <h1 class="cv-title">{{ .Title }}</h1>
+    
+    {{- /* Upload PDF and Display Download Link */ -}}
+    {{ with .Params.cvFile }}
+    <div class="cv-download">
+        <a href="{{ . | relURL }}" target="_blank" class="btn btn-download">
+            <i class="fas fa-download"></i> Download CV
+        </a>
+    </div>
+    {{ end }}
+
+    {{- /* Table of Contents */ -}}
+    <div class="details toc" id="toc-static">
+        <div class="details-summary toc-title">
+            <span>{{ T "contents" }}</span>
+            <span><i class="details-icon fas fa-angle-right"></i></span>
+        </div>
+        <div class="details-content toc-content">
+            {{ .TableOfContents | safeHTML }}
+        </div>
+    </div>
+
+    {{- /* CV Content */ -}}
+    <div class="content cv-content" id="content">
+        {{ .Content | safeHTML }}
+    </div>
+</article>
+{{ end }}

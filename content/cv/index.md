@@ -4,8 +4,12 @@ title: "Aadit Nagpal CV"
 draft: false
 author: "Aadit"
 description: "Curriculum Vitae of Aadit Nagpal"
-layout: ""
+layout: "cv"
+toc: true
+cvFile: "files/my-cv.pdf" # Path to the PDF in the static directory
 ---
+
+
 **Email:** [nagpalaadit@gmail.com](mailto:nagpalaadit@gmail.com)  
 **Phone:** +44 7426 993 990  
 **LinkedIn:** [linkedin.com/in/aadit-nagpal-bb5031263](https://www.linkedin.com/in/aadit-nagpal-bb5031263)
@@ -77,3 +81,10 @@ layout: ""
 
 - **Awards:** UKMT Maths Challenges Golds (Various), British Physics Olympiad Silver (2023), UK Bebras Merit and Distinctions (Various)
 - **Programming Languages:** Python, C++, C, Verilog, JavaScript
+
+## Download My CV
+
+You can download my full CV as a PDF here: [Download CV](Aadit_Nagpal_CV.pdf)
+
+<a href="https://example.com" target="_blank">Link Text</a>
+

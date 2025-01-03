@@ -318,7 +318,7 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
       Mix = false
     # Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false

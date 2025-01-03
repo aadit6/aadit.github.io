@@ -160,3 +160,30 @@ $body-font: 'Source Code Pro', monospace;
         font-size: 1rem;
     }
 }
+
+
+.cv-page {
+    padding: 20px;
+}
+
+.cv-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cv-download {
+    margin: 20px 0;
+}
+
+.cv-download .btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cv-download .btn-download:hover {
+    background-color: #0056b3;
+}

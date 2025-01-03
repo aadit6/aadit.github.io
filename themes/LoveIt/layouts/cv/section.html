@@ -1,0 +1,19 @@
+{{- define "cv" }}
+<article class="cv-page">
+    {{- if .Params.toc }}
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <div>{{ .TableOfContents }}</div>
+    </div>
+    {{- end }}
+
+    <h1>{{ .Title }}</h1>
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    <div class="download-link">
+        <a href="{{ .Site.BaseURL }}{{ .Params.cvFile }}" download>Download CV</a>
+    </div>
+</article>
+{{- end }}
