@@ -372,7 +372,7 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
         outlined = false
       # Commento comment config (https://commento.io/)
       [params.page.comment.commento]
-        enable = false
+        enable = true
       # utterances comment config (https://utteranc.es/)
       [params.page.comment.utterances]
         enable = false
