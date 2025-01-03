@@ -1,4 +1,162 @@
-// ==============================
-// Custom style
-// 自定义样式
-// ==============================
+/* Colors */
+$bg-color: #fff;
+$primary-color: #1a1a1a;
+$accent-color: #1dbf73; /* Fresh techy green */
+$hover-color: #00bcd4;
+$border-color: #ffffff;
+$text-color: #333;
+$secondary-text-color: #777;
+$card-bg-color: #ffffff;
+
+/* Fonts */
+$heading-font: 'Roboto', sans-serif;
+$body-font: 'Source Code Pro', monospace;
+
+/* General layout */
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    font-family: $body-font;
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+.projects-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    background-color: #ffffff !important;
+}
+
+.projects-title {
+    font-size: 3rem;
+    color: $primary-color;
+    font-family: $heading-font;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.projects-intro {
+    font-size: 1.2rem;
+    color: $secondary-text-color;
+    font-family: $body-font;
+    line-height: 1.6;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.project-card {
+    background-color: $card-bg-color;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+
+.project-image-container {
+    position: relative;
+    height: 220px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.project-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #e0e0e0;
+    color: $secondary-text-color;
+    font-size: 1rem;
+    font-family: $body-font;
+}
+
+.project-details {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.project-title {
+    font-size: 1.4rem;
+    color: $primary-color;
+    font-family: $heading-font;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: $text-color;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background-color: $accent-color;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-family: $body-font;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.tech-tag:hover {
+    background-color: $hover-color;
+}
+
+/* Paginator */
+.paginator {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-title {
+        font-size: 2.5rem;
+    }
+    .projects-intro {
+        font-size: 1rem;
+    }
+}

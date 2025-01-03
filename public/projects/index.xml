@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Aadit Nagpal</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Aadit Nagpal</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 04 Mar 2024 16:29:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Project One</title>
-      <link>http://localhost:1313/projects/one/</link>
-      <pubDate>Mon, 04 Mar 2024 16:29:41 +0800</pubDate>
-      <guid>http://localhost:1313/projects/one/</guid>
-      <description>&lt;h3 id=&#34;this&#34;&gt;This&lt;/h3&gt;&#xA;&lt;h2 id=&#34;is-my-sample&#34;&gt;Is my Sample&lt;/h2&gt;&#xA;&lt;h3 id=&#34;project&#34;&gt;Project&lt;/h3&gt;&#xA;&lt;p&gt;Blah de blah &lt;strong&gt;De&lt;/strong&gt; Blah&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All projects - Aadit Nagpal</title>
+        <link>http://aadit.xyz/projects/</link>
+        <description>All projects | Aadit Nagpal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Mar 2024 16:29:41 &#43;0800</lastBuildDate><atom:link href="http://aadit.xyz/projects/" rel="self" type="application/rss+xml" /><item>
+    <title>Project One</title>
+    <link>http://aadit.xyz/projects/one/</link>
+    <pubDate>Mon, 04 Mar 2024 16:29:41 &#43;0800</pubDate>
+    <author>Aadit</author>
+    <guid>http://aadit.xyz/projects/one/</guid>
+    <description><![CDATA[<h3 id="this">This</h3>
+<h2 id="is-my-sample">Is my Sample</h2>
+<h3 id="project">Project</h3>
+<p>Blah de blah <strong>De</strong> Blah</p>]]></description>
+</item>
+</channel>
 </rss>

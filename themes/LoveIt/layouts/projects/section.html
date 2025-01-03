@@ -1,0 +1,39 @@
+{{- define "title" }}
+    {{- .Params.Title | default "Projects" -}}
+{{- end -}}
+
+{{- define "content" }}
+    <div class="projects-container">
+        <header class="projects-header">
+            <h1 class="projects-title">{{ .Title }}</h1>
+            <p class="projects-intro">Explore cutting-edge projects that reflect my expertise in web development, algorithms, and system design.</p>
+        </header>
+
+        <div class="projects-grid">
+            {{- if .Pages }}
+                {{- range .Pages }}
+                    <div class="project-card">
+                        <a href="{{ .RelPermalink }}" class="project-link">
+                            {{- if .Params.image }}
+                                <div class="project-image-container">
+                                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="project-thumbnail">
+                                </div>
+                            {{- end }}
+                            <div class="project-details">
+                                <h3 class="project-title">{{ .Title | emojify }}</h3>
+                                <p class="project-description">{{ .Params.description | default "No description available." }}</p>
+                                <span class="project-tech">
+                                    {{ range .Params.tech }}<span class="tech-tag">{{ . }}</span>{{ end }}
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                {{- end }}
+            {{- else }}
+                <p>No projects found.</p>
+            {{- end }}
+        </div>
+
+        {{- partial "paginator.html" . -}}
+    </div>
+{{- end -}}

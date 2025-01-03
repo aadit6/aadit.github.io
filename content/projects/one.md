@@ -5,7 +5,7 @@ date: 2024-03-04T16:29:41+08:00
 lastmod: 2024-03-04T16:29:41+08:00
 draft: false
 author: "Aadit"
-description: "Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
+description: "My initial project"
 images: []
 resources:
 - name: "featured-image"
