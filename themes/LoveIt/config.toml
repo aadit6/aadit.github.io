@@ -263,7 +263,7 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
       maxShownLines = 50
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       inlineLeftDelimiter = ""
       inlineRightDelimiter = ""
@@ -527,8 +527,18 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
 
 # {{< link "https://gohugo.io/content-management/urls#permalinks" "Permalinks config" >}}
 [Permalinks]
-  # posts = ":year/:month/:filename"
+#   # posts = ":year/:month/:filename"
   posts = ":filename"
+  projects = ":filename"
+
+# [permalinks]
+#   [permalinks.page]
+#     posts = '/posts/:year/:filename/'
+#     reports = '/reports/:filename/'
+#   [permalinks.section]
+#     posts = '/articles/'
+#     reports = '/reports/'
+
 
 # {{< link "https://gohugo.io/about/hugo-and-gdpr/" "Privacy config" >}}
 [privacy]
