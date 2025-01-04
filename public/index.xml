@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Aadit Nagpal</title>
-        <link>http://aadit.xyz/</link>
+        <link>http://localhost:1313/</link>
         <description>Aadit Nagpal - MEng Electronic Engineering</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Mar 2024 16:29:41 &#43;0800</lastBuildDate>
-            <atom:link href="http://aadit.xyz/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Theme Documentation - Built-in Shortcodes</title>
-    <link>http://aadit.xyz/posts/first_post/</link>
+    <link>http://localhost:1313/posts/first_post/</link>
     <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
     <author>Dillon</author>
-    <guid>http://aadit.xyz/posts/first_post/</guid>
+    <guid>http://localhost:1313/posts/first_post/</guid>
     <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
 </item>
 </channel>

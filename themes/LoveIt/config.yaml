@@ -1,0 +1,392 @@
+module:
+  hugoVersion:
+    extended: true
+    min: 0.62.0
+params:
+  defaultTheme: light
+  gitRepo: https://github.com/aadit6/aadit.github.io
+  fingerprint: ""
+  dateFormat: 2006-01-02
+  title: Aadit Nagpal
+  description: Aadit Nagpal - MEng Electronic Engineering
+  images: []
+  header:
+    desktopMode: fixed
+    mobileMode: auto
+    title:
+      logo: ""
+      name: Aadit Nagpal
+      pre: ""
+      post: ""
+      typeit: true
+  footer:
+    enable: true
+    custom: ""
+    hugo: true
+    copyright: true
+    author: true
+    since: 2024
+  section:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  list:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  app:
+    title: Aadit Nagpal
+    noFavicon: false
+    svgFavicon: ""
+    themeColor: "#ffffff"
+    iconColor: "#5bbad5"
+    tileColor: "#da532c"
+  search:
+    enable: true
+    type: algolia
+    contentLength: 4000
+    placeholder: Search
+    maxResultLength: 10
+    snippetLength: 30
+    highlightTag: em
+    absoluteURL: false
+    algolia:
+      index: website_data
+      appID: 39GH1ALBCJ
+      searchKey: 5412397b88baf24343b1e6d671e47fbe
+  home:
+    rss: 10
+    profile:
+      enable: true
+      gravatarEmail: nagpalaadit@gmail.com
+      avatarURL: https://github.com/aadit6/aadit.github.io/blob/main/images/profile_photo.png
+      title: Aadit Nagpal
+      subtitle: MEng Electronic Engineering, University of Warwick
+      typeit: false
+      social: true
+      disclaimer: ""
+      markdownContent: >+
+
+
+        I am Aadit, an EE student @ the University of Warwick and am excited to build! This is my personal website showcasing my projects, skills and thoughts
+
+        ## What is on this website
+
+        - Most prominently, the [projects](https://www.aadit.xyz/projects) I have built
+          - Including [yadayadayada](https://www.x.com), a blahblah blah.
+        - Also some of my personal thoughts, documentation and research over on my [writings](https://www.aadit.xyz/posts)
+
+        - Finally various other things such as
+          - my CV
+          - and information about myself as well as my background
+
+
+    posts:
+      enable: true
+      paginate: 6
+  social:
+    GitHub: https://github.com/aadit6
+    Linkedin: https://www.linkedin.com/in/aadit-nagpal-bb5031263/
+    Twitter: https://x.com/aaditnagpal6
+    Instagram: ""
+    Facebook: ""
+    Telegram: ""
+    Medium: ""
+    Gitlab: ""
+    Youtubelegacy: ""
+    Youtubecustom: ""
+    Youtubechannel: ""
+    Tumblr: ""
+    Quora: ""
+    Keybase: ""
+    Pinterest: ""
+    Reddit: ""
+    Codepen: ""
+    FreeCodeCamp: ""
+    Bitbucket: ""
+    Stackoverflow: ""
+    Weibo: ""
+    Odnoklassniki: ""
+    VK: ""
+    Flickr: ""
+    Xing: ""
+    Snapchat: ""
+    Soundcloud: ""
+    Spotify: ""
+    Bandcamp: ""
+    Paypal: ""
+    Fivehundredpx: ""
+    Mix: ""
+    Goodreads: https://www.goodreads.com/user/show/179997633-aadit-nagpal
+    Lastfm: ""
+    Foursquare: ""
+    Hackernews: ""
+    Kickstarter: ""
+    Patreon: ""
+    Steam: ""
+    Twitch: ""
+    Strava: ""
+    Skype: ""
+    Whatsapp: ""
+    Zhihu: ""
+    Douban: ""
+    Angellist: ""
+    Slidershare: ""
+    Jsfiddle: ""
+    Deviantart: ""
+    Behance: ""
+    Dribbble: ""
+    Wordpress: ""
+    Vine: ""
+    Googlescholar: ""
+    Researchgate: ""
+    Mastodon: ""
+    Thingiverse: ""
+    Devto: ""
+    Gitea: ""
+    XMPP: ""
+    Matrix: ""
+    Bilibili: ""
+    Discord: ""
+    DiscordInvite: ""
+    Lichess: https://lichess.org/@/aaditnagpal1
+    ORCID: ""
+    Pleroma: ""
+    Kaggle: ""
+    MediaWiki: ""
+    Plume: ""
+    HackTheBox: ""
+    RootMe: ""
+    Email: nagpalaadit@gmail.com
+    Phone: ""
+    RSS: ""
+  page:
+    hiddenFromHomePage: false
+    hiddenFromSearch: false
+    twemoji: true
+    lightgallery: false
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: true
+    rssFullText: false
+    toc:
+      enable: true
+      keepStatic: false
+      auto: true
+    code:
+      copy: true
+      maxShownLines: 50
+    math:
+      enable: true
+      inlineLeftDelimiter: ""
+      inlineRightDelimiter: ""
+      blockLeftDelimiter: ""
+      blockRightDelimiter: ""
+      copyTex: true
+      mhchem: true
+    mapbox:
+      accessToken: ""
+      lightStyle: mapbox://styles/mapbox/light-v10?optimize=true
+      darkStyle: mapbox://styles/mapbox/dark-v10?optimize=true
+      navigation: true
+      geolocate: true
+      scale: true
+      fullscreen: true
+    share:
+      enable: true
+      Twitter: true
+      Facebook: false
+      Linkedin: true
+      Whatsapp: true
+      Pinterest: false
+      Tumblr: false
+      HackerNews: true
+      Reddit: false
+      VK: false
+      Buffer: false
+      Xing: false
+      Line: true
+      Instapaper: false
+      Pocket: false
+      Flipboard: false
+      Weibo: true
+      Blogger: false
+      Baidu: false
+      Odnoklassniki: false
+      Evernote: false
+      Skype: false
+      Trello: false
+      Mix: false
+    comment:
+      enable: true
+      disqus:
+        enable: false
+        shortname: ""
+      gitalk:
+        enable: false
+        owner: ""
+        repo: ""
+        clientId: ""
+        clientSecret: ""
+      valine:
+        enable: false
+        appId: ""
+        appKey: ""
+        placeholder: ""
+        avatar: mp
+        meta: ""
+        pageSize: 10
+        lang: ""
+        visitor: true
+        recordIP: true
+        highlight: true
+        enableQQ: false
+        serverURLs: ""
+        emoji: ""
+      facebook:
+        enable: false
+        width: 100%
+        numPosts: 10
+        appId: ""
+        languageCode: ""
+      telegram:
+        enable: false
+        siteID: ""
+        limit: 5
+        height: ""
+        color: ""
+        colorful: true
+        dislikes: false
+        outlined: false
+      commento:
+        enable: false
+      utterances:
+        enable: false
+        repo: ""
+        issueTerm: pathname
+        label: ""
+        lightTheme: github-light
+        darkTheme: github-dark
+      giscus:
+        enable: true
+        repo: aadit6/aadit6.github.io
+        repoId: R_kgDONjobiQ
+        category: Announcements
+        categoryId: DIC_kwDONjobic4CltVj
+        lang: en
+        mapping: pathname
+        reactionsEnabled: "0"
+        emitMetadata: "0"
+        inputPosition: top
+        lazyLoading: false
+        lightTheme: light
+        darkTheme: dark
+    library:
+      css: {}
+      js: {}
+    seo:
+      images: []
+      publisher:
+        name: ""
+        logoUrl: ""
+  typeit:
+    speed: 100
+    cursorSpeed: 1000
+    cursorChar: "|"
+    duration: -1
+  verification:
+    google: ""
+    bing: ""
+    yandex: ""
+    pinterest: ""
+    baidu: ""
+  seo:
+    image: ""
+    thumbnailUrl: ""
+  analytics:
+    enable: false
+    google:
+      id: ""
+      anonymizeIP: true
+    fathom:
+      id: ""
+      server: ""
+    plausible:
+      dataDomain: ""
+    yandexMetrica:
+      id: ""
+  cookieconsent:
+    enable: false
+    content:
+      message: ""
+      dismiss: ""
+      link: ""
+  cdn:
+    data: jsdelivr.yml
+  compatibility:
+    polyfill: false
+    objectFit: false
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+Permalinks:
+  posts: :filename
+  projects: :filename
+privacy:
+  googleAnalytics: {}
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+mediaTypes:
+  text/plain:
+    suffixes:
+      - md
+outputFormats:
+  MarkDown:
+    mediaType: text/plain
+    isPlainText: true
+    isHTML: false
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - MarkDown
+    - JSON
+  section:
+    - HTML
+    - RSS
+    - JSON
+  taxonomy:
+    - HTML
+    - RSS
+    - JSON
+  taxonomyTerm:
+    - HTML
+    - JSON

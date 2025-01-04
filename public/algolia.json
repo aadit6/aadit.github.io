@@ -1,0 +1,75 @@
+[
+    {
+        "weight": 3,
+        "uri": "about",
+        "content": "Hello page Sub   Title text  edited future",
+        "objectID": "about",
+        "title": "About",
+        "date": "2020-03-04T08:29:41.000Z",
+        "lastmod": "2020-03-04T08:29:41.000Z",
+        "draft": false,
+        "author": "Aadit",
+        "images": [],
+        "lightgallery": true
+    },
+    {
+        "weight": 0,
+        "uri": "cv",
+        "content": "Email  nagpalaadit gmail com Phone   44 7426 993 990 LinkedIn  linkedin com in aadit nagpal bb5031263 Education University Warwick  Bachelor Engineering  BEng  Electronic Engineering Coventry  West Midlands Sep 2024   May 2027 Modules  Engineering Design  Engineering Mathematics  Electrical Electronic Circuits  Systems Modelling  Simulation Computation  Computer Organisation Architecture  Audit  Clubs Societies  Engineering Society  Computing Society  Philosophy Society  Punjabi Society  Tennis Club Langley Grammar School  GCE A Level Slough  Berkshire Sep 2022   May 2024 Grades  Mathematics A  Physics A  Computer Science Relevant Experience Detego  Software Engineer Shadowing Westminster  Greater London Jul 2022 Participated daily sprint stand up meetings  enhancing understanding agile scrum methodologies  Observed scrum master s delegation techniques  emphasizing collaborative software delivery  Gained exposure RFID embedded system software development  collaborating engineers diagnose resolve technical challenges  Projects RC Drone Transmitter   Arduino  C   Assembled functional drone flight controller radio transmitter integrating Arduino microcontroller  motors  lithium ion batteries  gyroscopes  accelerometers  Soldered components performed precise calculations meet specifications  Implemented low level C   programming control drone movements  managing interactions radio transmitter flight controller  Utilized multi channel data transfer enhance responsiveness  Cards Against Humanity Web Application   React  Node js  SQL  Socket io Developed full stack MERN application using RESTful API seamless communication React based client Node js server  Created real time multiplayer web application replicating turn based card game  Integrated Socket io concurrent connections chat functionality  Volunteering Experience University Warwick Student Union  Engineering Course Representative Coventry  West Midlands Sep 2024   Present Represented views needs 400  engineering undergraduates Student Staff Liaison Committee  Ryvers Primary School  Volunteering Teaching Assistant Slough  Berkshire Sep 2022   Mar 2023 Worked 20  Year 2 students  fostering improvements literacy  numeracy  communication  reading comprehension skills  Assisted pupils technology based learning  including setting utilizing accounts  Technical Skills Awards  UKMT Maths Challenges Golds  Various   British Physics Olympiad Silver  2023   UK Bebras Merit Distinctions  Various  Programming Languages  Python  C    C  Verilog  JavaScript Download CV download full CV PDF here  Download CV Link Text",
+        "objectID": "cv",
+        "title": "Aadit Nagpal CV",
+        "draft": false,
+        "author": "Aadit",
+        "description": "Curriculum Vitae of Aadit Nagpal",
+        "layout": "cv",
+        "toc": true,
+        "cvFile": "files/my-cv.pdf"
+    },
+    {
+        "weight": 3,
+        "uri": "posts/first_post",
+        "content": "Hugo provides multiple built in shortcodes author convenience keep markdown content clean  Hugo uses Markdown its simple content format  However  lot things Markdown doesn t support well  use pure HTML expand possibilities  happens bad idea  Everyone uses Markdown it s pure simple read even non rendered  avoid HTML keep simple possible  avoid limitations  Hugo created shortcodes  shortcode simple snippet generate reasonable HTML code conforms Markdown s design philosophy  Hugo ships set predefined shortcodes represent common usage  shortcodes provided author convenience keep markdown content clean  1 figure   figure  Documentation figure Example figure input       rendered output looks this  HTML looks this  Lighthouse  figure  2 gist Documentation gist Example gist input       rendered output looks this       HTML looks this  3 highlight Documentation highlight Example highlight input           Title       range  Pages        Render  summary       end         rendered output looks this           Title       range  Pages        Render  summary       end         5 param Documentation param Example param input       rendered output looks this       6 ref relref   ref and relref  Documentation ref relref 7 tweet Documentation tweet Example tweet input  rendered output looks this  8 vimeo Documentation vimeo Example vimeo input       rendered output looks this       9 youtube Documentation youtube Example youtube input       rendered output looks this",
+        "objectID": "posts/first_post",
+        "title": "Theme Documentation - Built-in Shortcodes",
+        "date": "2020-03-04T08:29:41.000Z",
+        "lastmod": "2020-03-04T08:29:41.000Z",
+        "draft": false,
+        "author": "Dillon",
+        "authorLink": "https://dillonzq.com",
+        "description": "Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.",
+        "images": [],
+        "resources": [
+            {
+                "name": "featured-image",
+                "src": "featured-image.png"
+            }
+        ],
+        "tags": [
+            "shortcodes"
+        ],
+        "categories": [
+            "documentation"
+        ],
+        "lightgallery": true
+    },
+    {
+        "weight": 3,
+        "uri": "projects/one",
+        "content": "Sample Project Blah de blah De Blah",
+        "objectID": "projects/one",
+        "title": "Project One",
+        "date": "2024-03-04T08:29:41.000Z",
+        "lastmod": "2024-03-04T08:29:41.000Z",
+        "draft": false,
+        "author": "Aadit",
+        "description": "My initial project",
+        "images": [],
+        "resources": [
+            {
+                "name": "featured-image",
+                "src": "featured-image.png"
+            }
+        ],
+        "lightgallery": true
+    }
+]

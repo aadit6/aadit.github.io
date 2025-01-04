@@ -91,11 +91,11 @@
   [params.search]
     enable = true
     # type of search engine ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = ""
+    placeholder = "Search"
     # max number of results length
     maxResultLength = 10
     # snippet length of the result
@@ -105,9 +105,9 @@
     # whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "website_data"
+      appID = "39GH1ALBCJ"
+      searchKey = "5412397b88baf24343b1e6d671e47fbe"
 
   # Home page config
   [params.home]
@@ -372,7 +372,7 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
         outlined = false
       # Commento comment config (https://commento.io/)
       [params.page.comment.commento]
-        enable = true
+        enable = false
       # utterances comment config (https://utteranc.es/)
       [params.page.comment.utterances]
         enable = false
@@ -385,20 +385,21 @@ I am Aadit, an EE student @ the University of Warwick and am excited to build! T
       # giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        enable = false
-        repo = ""
-        repoId = ""
+        enable = true
+        repo = "aadit6/aadit6.github.io"
+        repoId = "R_kgDONjobiQ"
         category = "Announcements"
-        categoryId = ""
+        categoryId = "DIC_kwDONjobic4CltVj"
         # automatically adapt the current theme i18n configuration when empty
-        lang = ""
+        lang = "en"
         mapping = "pathname"
-        reactionsEnabled = "1"
+        reactionsEnabled = "0"
         emitMetadata = "0"
-        inputPosition = "bottom"
+        inputPosition = "top"
         lazyLoading = false
         lightTheme = "light"
         darkTheme = "dark"
+
     # Third-party library config
     [params.page.library]
       [params.page.library.css]
