@@ -5,9 +5,8 @@ Not yet populated with articles or projects, however basic features and function
 
 Used [HUGO](https://github.com/gohugoio/hugo) with the [LoveIt](https://github.com/dillonzq/LoveIt) theme
 ### Features to improve / add:
-- implement simple snowfall animation as background
-- have table of contents on CV page, alongside option to download CV pdf
-- ability to comment
-- fix search so works properly
-- remove (default) option to go into dark mode
+- have option to download CV pdf ✅
+- ability to comment ✅
+- fix search so works properly ✅
+- remove (default) option to go into dark mode ✅ 
 
